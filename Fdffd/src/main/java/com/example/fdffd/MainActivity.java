@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 counter++;
+                t.setText("Your Total is "+counter);
 
             }
         });
@@ -31,6 +32,7 @@ public class MainActivity extends Activity {
            @Override
            public void onClick(View view) {
                counter--;
+               t.setText("Your total is "+counter);
            }
        });
 
